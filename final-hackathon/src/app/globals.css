@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.shopsect h3, .shopPara{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+.shopsect .shopPara{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 1rem;
+  }
+  
+  .footer input{
+    /* border: none; */
+    outline: none;
+  
+  }
+  
+  
+  footer hr {
+    margin: auto;
+    margin-top: 15px;
+    width: 1000px;
+  }
+  
+ /* Add to Cart button (Product Page) */
+.bg-blue-600:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+/* Remove button (Cart Page) */
+.bg-red-500:hover {
+  background-color: #e11d48; /* Darker red on hover */
+}
+
+/* Checkout button */
+.bg-green-500:hover {
+  background-color: #16a34a; /* Darker green on hover */
+}
